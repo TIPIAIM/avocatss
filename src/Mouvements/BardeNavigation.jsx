@@ -149,8 +149,12 @@ export default function BardeNavigation() {
       <Nav>
         {/* Logo */}
         <Logo>
-          <img src={logoAODnoir} alt="Logo du Cabinet" />
-          AOD AVOCATS SCPA
+          <img
+            src={logoAODnoir}
+            alt="Logo du Cabinet"
+            className=" font-serif font-extrabold text-2xl"
+          />
+          AOD AVOCATS SCPA fflklkmdfmldfml
         </Logo>
 
         {/* Bouton pour le menu hamburger */}
